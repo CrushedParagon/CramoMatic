@@ -10,7 +10,7 @@ Weakness Policy; Dark; 30
 Razor Claw; Dark; 26
 Blunder Policy; Dark; 24
 Wide Lens; Dark; 22
-Zoom Lens; Dark 22
+Zoom Lens; Dark; 22
 Black Glasses; Dark; 14
 Ring Target; Dark; 14
 Scope Lens; Dark; 12
@@ -164,3 +164,126 @@ Rawst Berry; Grass; 2
 Rose Insense; Grass; 2
 Tiny Mushroom; Grass; 2
 Green Apricorn; Grass; 2
+Ground Memory; Ground; 40
+Big Nugget; Ground; 38
+Chipped Pot; Ground; 36
+Cracked Pot; Ground; 30
+Soft Sand; Ground; 20
+Thick Club; Ground; 18
+Nugget; Ground; 16
+Heavy Duty Boots; Ground; 16
+Apricot Berry; Ground; 12
+Rare Bone; Ground; 12
+Terrain Extender; Ground; 12
+Stardust; Ground; 8
+Hondew Berry; Ground; 6
+Shuca Berry; Ground; 4
+Persim Berry; Ground; 2
+Ice Memory; Ice; 40
+Comet Shard; Ice; 34
+Never-Melt Ice; Ice; 14
+Ganlon Berry; Ice; 12
+Icy Rock; Ice; 12
+Fossilized Dino; Ice; 10
+Snowball; Ice; 8
+Ice Stone; Ice; 6
+Pomeg Berry; Ice; 6
+Yache Berry; Ice; 4
+Aspear Berry; Ice; 2
+Ability Capsule; Normal; 40
+PP Max; Normal; 40
+PP Up; Normal; 38;
+Amulet Coin; Normal; 32
+Up-Grade; Normal; 30
+Quick Powder; Normal; 28
+Quick Claw; Normal; 26
+Silk Scarf; Normal; 22
+Choice Scarf; Normal; 20
+Lucky Egg; Normal; 20
+Safety Goggles; Normal; 10
+Normal Gem; Normal; 8
+Chilan Berry; Normal; 4
+Full Incense; Normal; 2
+Luck Incense; Normal; 2
+White Apricorn; Normal; 0
+Poison Memory; Poison; 40
+Poison Barb; Poison; 32
+Wishing Piece; Poison; 28
+Smoke Ball; Poison; 22
+Galarica Cuff; Poison; 18
+Toxic Orb; Poison; 14
+Petaya Berry; Poison; 12
+Black Sludge; Poison; 10
+Qualot Berry; Poison; 6
+Kebla Berry; Poison; 4
+Max Repel; Poison; 2
+Oran Berry; Poison; 2
+Repel; Poison; 2
+Super Repel; Poison; 2
+Psychic Memory; Psychic; 40
+Rare Candy; Psychic; 40
+Destiny Knot; Psychic; 28
+Room Service; Psychic; 24
+Choice Specs; Psychic; 20
+Light Clay; Psychic; 20
+Power Lens; Psychic; 20
+Twisted Spoon; Psychic; 18
+Exp. Candy XL; Psychic; 10
+Starf Berry; Psychic; 10
+Wise Glasses; Psychic; 10
+Exp. Candy L; Psychic; 8
+Psychic Seed; Psychic; 8
+Dawn Stone; Psychic; 6
+Exp. Candy M; Psychic; 6
+Tamato Berry; Psychic; 6
+Exp. Candy S; Psychic; 4
+Payapa Berry; Psychic; 4
+Exp. Candy XS; Psychic; 2
+Lax Incense; Psychic; 2
+Pure Incense; Psychic; 2
+Sitrus Berry; Psychic; 2
+Rock Memory; Rock; 40
+Rocky Helmet; Rock; 26
+Protector; Rock; 24
+Everstone; Rock; 20
+Star Piece; Rock; 20
+Hard Stone; Rock; 14
+Oval Stone; Rock; 12
+Smooth Rock; Rock; 12
+Lagging Tail; Rock; 10
+Micle Berry; Rock; 10
+Float Stone; Rock; 8
+Charti Berry; Rock; 4
+Wiki Berry; Rock; 4
+Rock Incense; Rock; 2
+Steel Memory; Steel; 40
+Bottle Cap; Steel; 40
+Gold Bottle Cap; Steel; 40
+King's Rock; Steel; 32
+Metal Coat; Steel; 24
+Metronome; Steel; 22
+Assault Vest; Steel; 20
+Eject Button; Steel; 16
+Eject Pack; Steel; 16
+Iron Ball; Steel; 16
+Metal Powder; Steel; 14
+Soothe Bell; Steel; 14
+Babiri Berry; Steel; 4
+Rusted Shield; Steel; 2
+Rusted Sword; Steel; 2
+Water Memory; Water; 40
+Pearl String; Water; 30
+Prism Scale; Water; 26
+Shell Bell; Water; 14
+Big Pearl; Water; 12
+Damp Rock; Water; 12
+Throat Spray; Water; 12
+Fossilized Fish; Water; 10
+Mystic Water; Water; 10
+Pearl; Water; 6
+Water Stone; Water; 6
+Passho Berry; Water; 4
+Chesto Berry; Water; 2
+Sea Incense; Water; 2
+Wave Incense; Water; 2
+Yellow Apricorn; Water; 0

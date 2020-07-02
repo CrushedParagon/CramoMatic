@@ -1,3 +1,7 @@
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.BufferedReader;
+import java.io.IOException;
 public class Item{
 
    private String name;
@@ -5,7 +9,7 @@ public class Item{
    private int weight;
    private static int numItems = 0;
    private int id;
-   private static Item[] globalList= new Item[500];
+   private static Item[] globalList= new Item[5000];
    
    public Item(String name, String type, int weight){
       this.id=this.numItems;
@@ -52,7 +56,16 @@ public class Item{
       return ""+this.id+": "+this.name+", "+this.type+", "+this.weight;
    }
    
-   public static void createAllItems(){
-      new Item("Bug Memory", "Bug", 40);
+   public static void createAllItems() throws FileNotFoundException, IOException{
+      BufferedReader items=new BufferedReader(new FileReader("ItemList.txt"));
+      String line=items.readLine();
+      while(line != null){
+         String[] elements=line.split(";");
+         String Name=elements[0].trim();
+         String Type=elements[1].trim();
+         int Weight=Integer.parseInt(elements[2].trim());
+        new Item(Name,Type,Weight);
+         line=items.readLine();
+      }
    }
 }
