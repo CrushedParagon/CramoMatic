@@ -72,5 +72,6 @@ public class Item{
    
    public static Item getFromList(int i){
       return globalList[i];
+      
    }
 }
