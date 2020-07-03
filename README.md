@@ -1,1 +1,1 @@
-# CramoMatic
+This is a java program to find the results of the cram o matic in Pokemon Sword and Shield given four input items
