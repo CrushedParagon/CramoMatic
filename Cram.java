@@ -18,10 +18,8 @@ public class Cram{
       }catch (Exception e){
          System.out.println(e);
       }
-      System.out.println(Item.searchList("Yellow Apricorn"));
-      Item item1=Item.getFromList(288);
-      Item item2=Item.getFromList(40);
-      System.out.println(findReward(item1,item2,item1,item1));
+      CramGUI test=new CramGUI();
+      test.makeGUI();
 
    
    }
@@ -88,7 +86,7 @@ public class Cram{
       }
       else{
          int remainder=sum-21;
-         int index=remainder/10+2;
+         int index=Math.min(remainder/10+2,15);
          toReturn=rewards[typeIndex][index];
       }
       return toReturn;

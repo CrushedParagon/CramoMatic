@@ -9,7 +9,7 @@ public class Item{
    private int weight;
    private static int numItems = 0;
    private int id;
-   private static Item[] globalList= new Item[5000];
+   private static Item[] globalList= new Item[289];
    
    public Item(String name, String type, int weight){
       this.id=this.numItems;
@@ -18,6 +18,10 @@ public class Item{
       this.type=type;
       globalList[numItems]=this;
       numItems++;
+   }
+   
+   public static Item[] giveList(){
+      return globalList;
    }
    
    public String getName(){
@@ -46,14 +50,14 @@ public class Item{
    public static String printList(){
       String toReturn="";
       for(int i=0; i<numItems; i++){
-         toReturn+=globalList[i].toString();
+         toReturn+=globalList[i].id+": "+globalList[i].name+", "+globalList[i].type+", "+globalList[i].weight;
          if(i!=numItems-1) toReturn+="\n";
       }
       return toReturn;
    }
    
    public String toString(){
-      return ""+this.id+": "+this.name+", "+this.type+", "+this.weight;
+      return this.name;
    }
    
    public static void createAllItems() throws FileNotFoundException, IOException{
