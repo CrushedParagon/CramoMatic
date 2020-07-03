@@ -98,7 +98,7 @@ Ghost Memory; Ghost; 40
 Gold Bottle Cap; Steel; 40
 Grass Memory; Grass; 40
 Grassy Seed; Grass; 8
-Green Apricorn; Grass; 2
+Green Apricorn; Grass; 0
 Grepa Berry; Flying; 6
 Grip Claw; Bug; 26
 Ground Memory; Ground; 40
