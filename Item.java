@@ -3,7 +3,8 @@ import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.IOException;
 public class Item{
-
+   
+   //self explanatory instance variables
    private String name;
    private String type;
    private int weight;
@@ -11,6 +12,7 @@ public class Item{
    private int id;
    private static Item[] globalList= new Item[289];
    
+   //constructor
    public Item(String name, String type, int weight){
       this.id=this.numItems;
       this.name=name;
@@ -20,6 +22,7 @@ public class Item{
       numItems++;
    }
    
+   //a bunch of ordinary accessor methods
    public static Item[] giveList(){
       return globalList;
    }
@@ -36,6 +39,7 @@ public class Item{
       return this.weight;
    }
    
+   //debug command that searches the list and returns an index
    public static int searchList(String name){
       int toReturn=-1;
       for(int i=0; i<numItems; i++){
@@ -47,6 +51,7 @@ public class Item{
       return toReturn;
    }
    
+   //debug command that prints all items
    public static String printList(){
       String toReturn="";
       for(int i=0; i<numItems; i++){
@@ -56,10 +61,12 @@ public class Item{
       return toReturn;
    }
    
+   //prints the name of the item
    public String toString(){
       return this.name;
    }
    
+   //crates all the items so they go in the static array, reads from the txt to get the info
    public static void createAllItems() throws FileNotFoundException, IOException{
       BufferedReader items=new BufferedReader(new FileReader("ItemList.txt"));
       String line=items.readLine();
@@ -74,6 +81,7 @@ public class Item{
       items.close();
    }
    
+   //gets Item from the static array given an index
    public static Item getFromList(int i){
       return globalList[i];
       
