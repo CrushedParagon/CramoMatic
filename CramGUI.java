@@ -11,7 +11,7 @@ public class CramGUI implements ActionListener{
       //setting up frame
       JFrame frame=new JFrame("Cram-o-Matic");
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-      frame.setSize(700,300);
+      frame.setSize(750,300);
       
       //left panel that holds dropdown lists
       JPanel left=new JPanel();
@@ -43,10 +43,10 @@ public class CramGUI implements ActionListener{
       left.add(refresh);
       
       
-      reward=new JTextArea(5,20);
+      reward=new JTextArea(5,25);
       reward.setEditable(false);
       reward.setLineWrap(true);
-      reward.setText("Super long test string to see if it wraps around by default");
+      reward.setText("Press Refresh Button to Show Reward");
       
       frame.getContentPane().add(BorderLayout.WEST,left);
       frame.getContentPane().add(BorderLayout.EAST,reward);
