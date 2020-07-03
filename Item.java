@@ -67,5 +67,10 @@ public class Item{
         new Item(Name,Type,Weight);
          line=items.readLine();
       }
+      items.close();
+   }
+   
+   public static Item getFromList(int i){
+      return globalList[i];
    }
 }
