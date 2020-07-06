@@ -5,6 +5,8 @@ import java.io.IOException;
 
 
 public class Cram{
+   private final static double BALL_INCREMENT_BIG=6.175;
+   private final static double BALL_INCREMENT_SMALL=0.25;
    //2D Array to store reward table
    private static String rewards[][];
    public static void main(String[] args){
@@ -34,6 +36,7 @@ public class Cram{
          rewards[i]=row;
          line=input.readLine();
       }
+      input.close();
    }
    
    //debug command that prints the entire rewards array
@@ -126,33 +129,33 @@ public class Cram{
    //on apricorn color. Calls addToArray since it's a String
    public static void adjustBalls(String[][] base, Item apricorn){
       switch (apricorn.getName()){
-         case "Black Apricorn": addToArray(base[2],6.175);//dusk ball
-               addToArray(base[6],6.175);//luxury ball
-               addToArray(base[13],0.25);//heavy ball
+         case "Black Apricorn": addToArray(base[2],BALL_INCREMENT_BIG);//dusk ball
+               addToArray(base[6],BALL_INCREMENT_BIG);//luxury ball
+               addToArray(base[13],BALL_INCREMENT_SMALL);//heavy ball
                break;
-         case "Blue Apricorn": addToArray(base[3],6.175);//dive ball
-               addToArray(base[7],6.175);//net ball
-               addToArray(base[14],0.25);//lure ball
+         case "Blue Apricorn": addToArray(base[3],BALL_INCREMENT_BIG);//dive ball
+               addToArray(base[7],BALL_INCREMENT_BIG);//net ball
+               addToArray(base[14],BALL_INCREMENT_SMALL);//lure ball
                break;
-         case "Green Apricorn": addToArray(base[4],6.175);//ultra ball
-               addToArray(base[8],6.175);//nest ball
-               addToArray(base[15],0.25);//friend ball
+         case "Green Apricorn": addToArray(base[4],BALL_INCREMENT_BIG);//ultra ball
+               addToArray(base[8],BALL_INCREMENT_BIG);//nest ball
+               addToArray(base[15],BALL_INCREMENT_SMALL);//friend ball
                break;
-         case "Pink Apricorn": addToArray(base[4],6.175);//ultra
-               addToArray(base[9],6.175);//heal ball
-               addToArray(base[16],0.25);//love ball
+         case "Pink Apricorn": addToArray(base[4],BALL_INCREMENT_BIG);//ultra
+               addToArray(base[9],BALL_INCREMENT_BIG);//heal ball
+               addToArray(base[16],BALL_INCREMENT_SMALL);//love ball
                break;
-         case "Red Apricorn": addToArray(base[4],6.175);//ultra
-               addToArray(base[10],6.175);//repeat ball
-               addToArray(base[17],0.25);//level ball
+         case "Red Apricorn": addToArray(base[4],BALL_INCREMENT_BIG);//ultra
+               addToArray(base[10],BALL_INCREMENT_BIG);//repeat ball
+               addToArray(base[17],BALL_INCREMENT_SMALL);//level ball
                break;
-         case "White Apricorn": addToArray(base[5],6.175);//premier ball
-               addToArray(base[11],6.175);//timer ball
-               addToArray(base[18],0.25);//fast ball
+         case "White Apricorn": addToArray(base[5],BALL_INCREMENT_BIG);//premier ball
+               addToArray(base[11],BALL_INCREMENT_BIG);//timer ball
+               addToArray(base[18],BALL_INCREMENT_SMALL);//fast ball
                break;
-         case "Yellow Apricorn": addToArray(base[4],6.175);//ultra
-               addToArray(base[12],6.175);//quick ball
-               addToArray(base[19],0.25);//moon ball
+         case "Yellow Apricorn": addToArray(base[4],BALL_INCREMENT_BIG);//ultra
+               addToArray(base[12],BALL_INCREMENT_BIG);//quick ball
+               addToArray(base[19],BALL_INCREMENT_SMALL);//moon ball
                break;
          default: System.out.println("?");
 
@@ -172,7 +175,7 @@ public class Cram{
       String toPrint="";
       for(int i=0; i<22; i++){
          if(Double.parseDouble(rate[i][1]) != 0.0){
-            toPrint+=rate[i][0]+","+rate[i][1]+"%";
+            toPrint+=rate[i][0]+", "+rate[i][1]+"%";
             if(i != 21){
                toPrint+="\n";
             }

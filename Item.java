@@ -10,7 +10,8 @@ public class Item{
    private int weight;
    private static int numItems = 0;
    private int id;
-   private static Item[] globalList= new Item[289];
+   private final static int ITEM_COUNT=289;
+   private static Item[] globalList= new Item[ITEM_COUNT];
    
    //constructor
    public Item(String name, String type, int weight){
@@ -18,7 +19,7 @@ public class Item{
       this.name=name;
       this.weight=weight;
       this.type=type;
-      globalList[numItems]=this;
+      globalList[id]=this;
       numItems++;
    }
    

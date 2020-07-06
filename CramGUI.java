@@ -20,10 +20,10 @@ public class CramGUI implements ActionListener{
       left.setLayout(new BoxLayout(left,BoxLayout.PAGE_AXIS));
       
       //four dropdown lists on the left
-      item1=new JComboBox(Item.giveList());
-      item2=new JComboBox(Item.giveList());
-      item3=new JComboBox(Item.giveList());
-      item4=new JComboBox(Item.giveList());
+      item1=new JComboBox<Item>(Item.giveList());
+      item2=new JComboBox<Item>(Item.giveList());
+      item3=new JComboBox<Item>(Item.giveList());
+      item4=new JComboBox<Item>(Item.giveList());
       
       //setting dropdown dimensions
       item1.setPreferredSize(new Dimension(300,50));
