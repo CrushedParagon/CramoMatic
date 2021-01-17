@@ -70,6 +70,7 @@ public class Cram{
             case "Star Piece": return "Comet Shard";
             case "Rare Candy": return "Ability Capsule";
             case "Bottle Cap": return "Gold Bottle Cap";
+            case "Dynite Ore": return "PP Up";
             default: break;
          }
       }

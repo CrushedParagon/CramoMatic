@@ -10,7 +10,7 @@ public class Item{
    private int weight;
    private static int numItems = 0;
    private int id;
-   private final static int ITEM_COUNT=289;
+   private final static int ITEM_COUNT=292;
    private static Item[] globalList= new Item[ITEM_COUNT];
    
    //constructor

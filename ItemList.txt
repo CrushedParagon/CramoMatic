@@ -1,4 +1,5 @@
 Ability Capsule; Normal; 40
+Ability Patch; Normal; 38
 Absorb Bulb; Grass; 8
 Adamant Mint; Grass; 16
 Adrenaline Orb; Ghost; 12
@@ -61,6 +62,7 @@ Dragon Scale; Dragon; 18
 Dubious Disc; Dark; 32
 Dusk Stone; Ghost; 6
 Dynamax Candy; Dragon; 6
+Dynite Ore; Dragon; 28
 Eject Button; Steel; 16
 Eject Pack; Steel; 16
 Electric Memory; Electric; 40
@@ -91,6 +93,7 @@ Fossilized Fish; Water; 10
 Full Incense; Normal; 2
 Galarica Cuff; Poison; 18
 Galarica Twig; Grass; 4
+Galarica Wreath; Psychic; 18
 Ganlon Berry; Ice; 12
 Genius Feather; Flying; 6
 Gentle Mint; Grass; 16
